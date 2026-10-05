@@ -1,4 +1,3 @@
--- Services
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
@@ -8,12 +7,11 @@ local CoreGui = game:GetService("CoreGui")
 local Camera = workspace.CurrentCamera
 local Lighting = game:GetService("Lighting")
 
--- Load RedzLib (UI, GUI, Toggle baru)
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/farehamhz/RedzLib/main/RedzLib'))()
 local Window = Library:MakeWindow({
-    Title = 'Vaelyer',
+    Title = 'SmithSC Project',
     SubTitle = 'By Archaes `78',
-    SaveFolder = 'Vaelyer',
+    SaveFolder = 'SmithSC Project',
 })
 local Tab = Window:MakeTab({
     Name = 'Features',
@@ -21,7 +19,6 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
--- Config
 local Config = {
     AIMBOT_ESP = false,
     SPEEDHACK = false,
